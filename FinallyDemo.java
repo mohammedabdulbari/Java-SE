@@ -9,10 +9,9 @@ public class FinallyDemo
             
         throw new Exception();
         }
-        catch
-                
         finally
         {
+           //this message willdefinitly execute 
         System.out.println("Final Message");
         }
         
