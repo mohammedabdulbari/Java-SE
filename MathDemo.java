@@ -5,7 +5,7 @@ public class MathDemo
 {
     public static void main(String[] args) 
     {
-       /* System.out.print("Absolute :");
+        System.out.print("Absolute :");
         System.out.println(Math.abs(-123));
         
         
@@ -67,7 +67,7 @@ public class MathDemo
         System.out.print("Convert To Degree :");
         System.out.println(StrictMath.toDegrees(StrictMath.tanh(1)));
 
-        */
+        
         
         System.out.print("Random :");
         System.out.println(Math.random()*1000);
