@@ -1,4 +1,4 @@
-package gridlayout;
+package gridlayoutdemo;
 
 import java.awt.*;
 
@@ -29,7 +29,7 @@ class MyFrame extends Frame
                 add(b6);
 }
 }
-public class GridLayout {
+public class GridLayoutDemo {
 
     public static void main(String[] args) {
 
