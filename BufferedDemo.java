@@ -5,7 +5,7 @@ public class BufferedDemo
 {
     public static void main(String[] args)throws Exception 
     {
-        FileReader fis=new FileReader("C:/MyJava/Test.txt");
+        FileReader fis=new FileReader("Test.txt");
         BufferedReader bis=new BufferedReader(fis);
         
         System.out.print((char)bis.read());
