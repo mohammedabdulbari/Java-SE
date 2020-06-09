@@ -1,8 +1,8 @@
-package datedemo;
+package hashdemo;
 
 import java.util.*;
 
-public class DateDemo 
+public class HashDemo 
 {
     public static void main(String[] args) 
     {
