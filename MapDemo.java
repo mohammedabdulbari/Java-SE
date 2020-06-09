@@ -13,9 +13,9 @@ public class MapDemo
         tm.put(5,"F");
         
         
-       // Entry<Integer,String> e=tm.firstEntry();
+        Entry<Integer,String> e=tm.firstEntry();
         
-      //  System.out.println(e.getKey()+" "+e.getValue());
+        System.out.println(e.getKey()+" "+e.getValue());
         
         System.out.println(tm);
         
