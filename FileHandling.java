@@ -11,7 +11,6 @@ public class FileHandling
        System.out.println(f.isDirectory());
        File list[]=f.listFiles();
         
-       FileOutputStream fos =new FileOutputStream("C:\\MyJava\\Data.txt");
        for(File x:list)
        {
            System.out.println(x.getParent()+" "+x.getName());
