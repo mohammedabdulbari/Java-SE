@@ -7,7 +7,8 @@ public class FileExample
     public static void main(String[] args) throws Exception
     {
         
-     try (FileReader fr = new FileReader("C:/MyJava/Test.txt")) 
+       //create a file Test.txt using notepad and write something in the file
+     try (FileReader fr = new FileReader("Test.txt")) 
      {
          int x;
          
