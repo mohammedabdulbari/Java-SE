@@ -14,10 +14,15 @@ public class HashTableDemo
         ht.put(4,"D");
         ht.put(5,"E");
         
+        
+        Enumeration e=ht.elements();
+        while(e.hasMoreElements())
+        {
+            System.out.println(e.nextElement());
+        }
+        
         ht.computeIfAbsent(7, (k)->"Z"+k);
-        
-        
-        
+
         System.out.println(ht);
         
         
