@@ -15,10 +15,10 @@ public class PropertyDemo
         p.setProperty("Model", "Latitude");
         
         
-        p.storeToXML(new FileOutputStream("/Users/abdulbari/Documents/MyData.xml"), "Laptop");
+        p.storeToXML(new FileOutputStream("MyData.xml"), "Laptop");
         
         
-        p.load(new FileInputStream("/Users/abdulbari/Documents/MyData.txt"));
+        p.load(new FileInputStream("MyData.txt"));
         
         System.out.println(p);
                
