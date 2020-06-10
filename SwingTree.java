@@ -15,7 +15,7 @@ class MyFrame extends JFrame implements TreeSelectionListener
     MyFrame()
     {
         super("Tree Demo");
-        
+        //valid path must be given
         DefaultMutableTreeNode root=new DefaultMutableTreeNode("C:\\MyJava");
         File f=new File("C:\\MyJava");
         
