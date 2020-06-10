@@ -15,7 +15,7 @@ class MyFrame extends JFrame implements ActionListener
     {
        super("Toolbar Demo");
        tb=new JToolBar();
-       
+       //images of icons must be present in this folder
        b1=new JButton(new ImageIcon("resource/images/save.png"));
        b2=new JButton(new ImageIcon("resource/images/open.png"));
        b3=new JButton(new ImageIcon("resource/images/new.png"));
