@@ -1,56 +1,13 @@
 package rectangletest;
 
-
 class Rectangle
 {
-    private double length;
-    private double breadth;
-    
-    public Rectangle()
-    {
-        length=1;
-        breadth=1;
-    }
-    
-    public Rectangle(double l,double b)
-    {
-        setLength(l);
-        setBreadth(b);
-    }
-    public Rectangle(double s)
-    {
-        length=breadth=s;
-    }
-    
-    
-    public double getLength()
-    {
-        return length;
-    }
-    public double getBreadth()
-    {
-        return breadth;
-    }
-    
-    public void setLength(double l)
-    {
-        if(l>=0)
-            length=l;
-        else
-            length=0;
-    }
-    public void setBreadth(double b)
-    {
-        if(b>=0)
-            breadth=b;
-        else
-            breadth=0;
-    }
-    
+    public double length;
+    public double breadth;
     
     public double area()
     {
-        return getLength()*getBreadth();
+        return length*breadth;
     }
     
     public double perimeter()
@@ -66,44 +23,19 @@ class Rectangle
             return false;
     }
     
-    
 }
 
-public class RectangleTest 
-{
+public class RectangleTest {
 
-    public static void main(String[] args) 
-    {
-        Rectangle r=new Rectangle(10,5);
+    public static void main(String[] args) {
+        Rectangle r=new Rectangle();
+        r.length=10.5;
+        r.breadth=5.5;
         
-        System.out.println("Area "+r.area());
+        System.out.println("Area"+r.area());
+        System.out.println("perimeter"+r.perimeter());
         
-                
+        System.out.println("Is it a Square"+r.isSquare());
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-
