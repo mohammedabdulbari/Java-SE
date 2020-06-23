@@ -1,27 +1,35 @@
 package lamdademo;
 
-
+@FunctionalInterface
 interface MyLambda
 {
-    public int display(String str1,String str2);
+    public void display();
 }
 
-
-public class LamdaDemo 
-{   
-    public LamdaDemo(String s)
+/*class My implements MyLambda
+{
+    public void display()
     {
-        System.out.println(s.toUpperCase());
+        System.out.println("Hello World");
+    }
+}*/
+public class LamdaDemo {
+
+    public static void main(String[] args) {
+        
+        MyLambda m=()->{System.out.println("Hello world");};
+        
+        /*//MyLambda m=new My();
+        MyLambda m=//new MyLambda()
+                ()->
+        
+            //public void display()
+            {
+                System.out.println("Hello World");
+        
+        };*/
+        m.display();
+        
     }
     
-    public static void main(String[] args) 
-    {       
-                
-        MyLambda ml=String::compareTo;
-        
-        
-        System.out.println(ml.display("zello","well"));
-        
-               
-    }
 }
