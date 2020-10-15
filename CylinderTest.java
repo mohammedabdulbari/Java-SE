@@ -5,6 +5,15 @@ class  Cylinder
     private int radius;
     private int height;
     
+    public Cylinder()
+    {
+        radius=height=1;
+    }
+    public Cylinder(int r,int h)
+    {
+        radius=r;
+        height=h;
+    }
     public int getHeight()
     {
         return height;
