@@ -26,7 +26,7 @@ class MyFrame extends JFrame implements TreeSelectionListener
                 DefaultMutableTreeNode temp=new DefaultMutableTreeNode(x.getName());
                 for(File y:x.listFiles())
                 {
-                    temp.add(new DefaultMutableTreeNode(x.getName()));
+                    temp.add(new DefaultMutableTreeNode(y.getName()));
                 }
                 root.add(temp);
             }
