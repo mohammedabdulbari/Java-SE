@@ -21,7 +21,7 @@ class Account
     }
     public String getAccNo(){return accNo;}
     public String getName(){return name;}
-    public String getAddress(){return address;};
+    public String getAddress(){return address;}
     public String getPhno(){return phno;}
     public String getDOB(){return dob;}
     public long getBalance(){return balance;}
