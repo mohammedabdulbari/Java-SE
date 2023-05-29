@@ -10,7 +10,7 @@ public class FileExample {
         try(FileOutputStream fos=new FileOutputStream("C:/MyJava/Test.txt");)
         {
         
-        String str="earn Java Programming.";
+        String str="learn Java Programming.";
         
         byte b[]=str.getBytes();
         
